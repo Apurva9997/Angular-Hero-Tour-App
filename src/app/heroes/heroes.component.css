@@ -1,0 +1,31 @@
+.badge{
+    background-color: black;
+    color:white;
+    padding: 1px;
+    text-align: center;
+    width:20px;
+    border-radius:15%;
+    display: inline-block;
+}
+.hero-name{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left:10px;
+    background-color: #eee;
+    display: inline-block;
+}
+.hero-name:hover{
+    background-color: grey;
+    color:white;
+}
+.selected-Hero{
+    position: fixed;
+    bottom:0;
+    left:50px;
+    width:300px;
+}
+.row{
+    /* position:relative;
+    top:10px; */
+    margin-top:20px;
+}

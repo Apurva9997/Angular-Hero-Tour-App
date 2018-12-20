@@ -1,0 +1,12 @@
+.topHeroesCard{
+    display: inline-grid;
+    grid-template-columns:repeat(8,1fr);
+    grid-gap:8px;
+}
+.hero-tile{
+    background-color: blue;
+    color:white;
+    height:80px;
+    grid-column: 1 2;
+    text-align: center;
+}
